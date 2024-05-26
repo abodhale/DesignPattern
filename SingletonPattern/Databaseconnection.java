@@ -14,8 +14,7 @@ public class Databaseconnection {
 		{ 
 			final String DB_URL = "jdbc:mysql://127.0.0.1:3306/";
 			final String USER = "root", PASS = "Akash3011@";
-			conn =DriverManager.getConnection(DB_URL,USER,PASS);
-			
+			conn =DriverManager.getConnection(DB_URL,USER,PASS);	
 		}
 		
 		catch (Exception e)
