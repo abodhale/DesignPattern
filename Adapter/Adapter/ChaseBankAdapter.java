@@ -9,7 +9,5 @@ public class ChaseBankAdapter implements BankAPI {
 	public void sendMoney(String from, String to, String amt) {
 		
 		chasebank.sendMoney(to, from, amt);
-	}
-
-	
+	}	
 }
