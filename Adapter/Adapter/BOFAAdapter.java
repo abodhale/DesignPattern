@@ -10,7 +10,5 @@ public class BOFAAdapter implements BankAPI
 	public void sendMoney(String from, String to, String amt)
 	{
 		bofabank.transferMoney(from, to, amt);
-	}
-
-	
+	}	
 }
